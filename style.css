@@ -109,8 +109,15 @@ main {
   header {
     padding: 20px;
   }
-  nav {
+  nav,
+  .team-container {
     flex-direction: column;
+  }
+  .team-img-content {
+    grid-template-columns: 1fr;
+  }
+  .team-content {
+    padding: 20px;
   }
 }
 
@@ -119,7 +126,15 @@ main {
   header {
     padding: 40px;
   }
-  nav {
+  nav,
+  .team-container {
     flex-direction: column;
+  }
+  .team-img-content {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px;
+  }
+  .team-content {
+    padding: 0px 50px;
   }
 }
