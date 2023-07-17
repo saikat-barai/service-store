@@ -124,12 +124,15 @@ main {
   border: 1px solid #ff900e;
   text-align: center;
   padding: 2rem;
+  width: 11rem;
+  height: 11rem;
 }
 .facts-card .card .card-status {
   color: #424242;
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 400;
   padding-top: 10px;
+  
 }
 .facts-card .card .card-title {
   color:#727272;
@@ -143,15 +146,19 @@ main {
   header {
     padding: 20px;
   }
-  nav,
-  .team-container {
+  nav, .team-container , .facts-card{
     flex-direction: column;
   }
   .team-img-content {
     grid-template-columns: 1fr;
   }
-  .team-content {
+  .team-content{
     padding: 20px;
+  }
+  .facts-card{
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
   }
 }
 
@@ -170,5 +177,8 @@ main {
   }
   .team-content {
     padding: 0px 50px;
+  }
+  .facts-card{
+    justify-content: space-between;
   }
 }
