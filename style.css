@@ -45,6 +45,7 @@ nav ul li a {
   font-weight: 700;
   line-height: normal;
 }
+
 .banner-content {
   margin: 0 auto;
   text-align: center;
@@ -62,6 +63,45 @@ nav ul li a {
 .banner img {
   margin-top: 30px;
   width: 100%;
+}
+main {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+.team-container {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.team-img-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+.team-content {
+  padding-left: 40px;
+  padding-right: 50px;
+}
+.team-title {
+  color: #727272;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.of-our {
+  color: #131313;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-weight: 700;
+}
+.team-description {
+  color: #727272;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 /* resposive style start  */
 /* for mobile resposive */
