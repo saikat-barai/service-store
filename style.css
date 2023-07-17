@@ -103,6 +103,40 @@ main {
   font-style: normal;
   font-weight: 400;
 }
+.facts-title {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.facts-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.facts-card {
+  display: flex;
+  justify-content: space-around;
+}
+.facts-card .card {
+  /* width: 15rem;
+  height: 15rem; */
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 2rem;
+}
+.facts-card .card .card-status {
+  color: #424242;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.facts-card .card .card-title {
+  color:#727272;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
 /* resposive style start  */
 /* for mobile resposive */
 @media screen and (max-width: 576px) {
